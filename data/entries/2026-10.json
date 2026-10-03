@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "2026-10-02-claude-frontier-academy",
+    "status": "published",
+    "title": "Anthropic commits $100 million to train 10,000 engineers to put AI to work",
+    "date": "2026-10-02",
+    "company": "Anthropic",
+    "category": "company",
+    "summary": "Anthropic announced Claude Frontier Academy, a $100 million program to train 10,000 engineers by the end of 2027 to put AI to work inside large companies. Training starts with a few days in person in San Francisco, New York, or London, followed by a 12-week residency at the engineer's own company. Early partners include Accenture, Deloitte, McKinsey, and Morgan Stanley.",
+    "why_it_matters": "Anthropic says a shortage of people who know how to put AI to work is holding businesses back, and this program is its attempt to close that gap.",
+    "terms": [],
+    "importance": 2,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "url": "https://www.anthropic.com/news/claude-frontier-academy",
+        "type": "primary"
+      }
+    ]
+  }
+]

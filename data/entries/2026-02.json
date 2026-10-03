@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-02-02-spacex-acquires-xai",
+    "status": "published",
+    "title": "SpaceX acquires xAI, the company behind Grok",
+    "date": "2026-02-02",
+    "company": "xAI",
+    "category": "company",
+    "summary": "SpaceX announced that it has acquired xAI, the company that makes the Grok chatbot. xAI's products now carry the name SpaceXAI.",
+    "why_it_matters": "If you see the name SpaceXAI in AI news, it's the company formerly known as xAI, now part of SpaceX.",
+    "terms": [
+      "chatbot"
+    ],
+    "importance": 4,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "xAI News",
+        "url": "https://x.ai/news/xai-joins-spacex",
+        "type": "primary"
+      }
+    ]
+  }
+]

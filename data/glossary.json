@@ -1,14 +1,7 @@
 [
   {
-    "term": "AGI",
-    "definition": "Short for artificial general intelligence: AI that could do most mental work as well as a person can. There's no agreed definition, and experts disagree about whether or when it will arrive.",
-    "related": [
-      "AI model"
-    ]
-  },
-  {
     "term": "AI model",
-    "definition": "A computer program that has learned patterns from a huge number of examples, so it can do a task like writing, answering questions, or recognizing images. ChatGPT, Claude, and Gemini are all built on AI models.",
+    "definition": "A computer program that has learned patterns from a huge number of examples, so it can do a task like writing, answering questions, or recognizing images. ChatGPT, Claude, Gemini, and Grok are all built on AI models.",
     "related": [
       "large language model",
       "parameters"
@@ -26,7 +19,7 @@
     "term": "alignment",
     "definition": "Making sure an AI system does what people actually intend and avoids harmful behavior, even in situations its makers didn't plan for.",
     "related": [
-      "interpretability"
+      "safeguards"
     ]
   },
   {
@@ -46,7 +39,7 @@
   {
     "term": "chatbot",
     "definition": "An app you talk with by typing or speaking, which answers using an AI model.",
-    "example": "ChatGPT, Claude, and Gemini are chatbots.",
+    "example": "ChatGPT, Claude, Gemini, and Grok are chatbots.",
     "related": [
       "large language model"
     ]
@@ -67,6 +60,14 @@
     ]
   },
   {
+    "term": "frontier model",
+    "definition": "One of the most capable AI models available at a given time, at the cutting edge of what AI can do. The label moves fast: today's frontier model is next year's ordinary one.",
+    "related": [
+      "AI model",
+      "benchmark"
+    ]
+  },
+  {
     "term": "hallucination",
     "definition": "When an AI model states something false or made-up as if it were true.",
     "example": "Confidently citing a book or court case that doesn't exist.",
@@ -75,27 +76,13 @@
     ]
   },
   {
-    "term": "interpretability",
-    "definition": "The research field that tries to understand what's happening inside an AI model and why it gives the answers it does.",
-    "related": [
-      "alignment"
-    ]
-  },
-  {
     "term": "large language model",
     "definition": "An AI model trained on enormous amounts of text so it can understand and write language. It works by predicting what should come next, one small piece at a time.",
-    "example": "The models behind ChatGPT, Claude, and Gemini are large language models, often shortened to LLMs.",
+    "example": "The models behind ChatGPT, Claude, Gemini, and Grok are large language models, often shortened to LLMs.",
     "related": [
       "AI model",
       "token",
       "chatbot"
-    ]
-  },
-  {
-    "term": "mixture of experts",
-    "definition": "A way of building an AI model out of many smaller specialist parts, called experts. For each bit of input, only a few experts do the work, which makes a very large model faster and cheaper to run.",
-    "related": [
-      "parameters"
     ]
   },
   {
@@ -105,12 +92,6 @@
     "related": [
       "AI model"
     ]
-  },
-  {
-    "term": "open standard",
-    "definition": "A shared set of rules that anyone can use for free, so products from different companies can work together.",
-    "example": "Email is an open standard: anyone can build an email app, and they can all send messages to each other.",
-    "related": []
   },
   {
     "term": "open weights",
@@ -130,9 +111,13 @@
     ]
   },
   {
-    "term": "public benefit corporation",
-    "definition": "A type of for-profit company that is legally required to weigh a public mission alongside making money for its shareholders.",
-    "related": []
+    "term": "prompt",
+    "definition": "The instruction or question you give an AI model. Clearer, more specific prompts usually get better answers.",
+    "example": "\"Summarize this email in three bullet points\" is a prompt.",
+    "related": [
+      "chatbot",
+      "large language model"
+    ]
   },
   {
     "term": "reasoning model",
@@ -140,6 +125,13 @@
     "related": [
       "large language model",
       "benchmark"
+    ]
+  },
+  {
+    "term": "safeguards",
+    "definition": "The rules and protections built into an AI model to stop it from helping with harmful things, like making weapons or breaking into computer systems.",
+    "related": [
+      "alignment"
     ]
   },
   {

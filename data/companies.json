@@ -31,6 +31,14 @@
         ]
       },
       {
+        "name": "Claude Mythos 5.1",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Cybersecurity and life-sciences work, for vetted US organizations only"
+        ]
+      },
+      {
         "name": "Claude Opus 5.5",
         "type": "model",
         "status": "current",
@@ -105,6 +113,15 @@
     "about": "Google builds the Gemini family of AI models through its research lab, Google DeepMind, and puts them into products like Search and the Gemini app.",
     "products": [
       {
+        "name": "Gemini 4 Argon",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Complex software engineering",
+          "Legal, finance, and cybersecurity work (rolling out in stages)"
+        ]
+      },
+      {
         "name": "Gemini 3.8 Flash",
         "type": "model",
         "status": "current",
@@ -119,6 +136,14 @@
         "status": "current",
         "use_cases": [
           "Hard problem-solving and agent tasks (in preview)"
+        ]
+      },
+      {
+        "name": "AlphaGenome Atlas",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Look up the predicted effects of DNA changes, free for academic research"
         ]
       },
       {
@@ -174,6 +199,37 @@
         "status": "current",
         "use_cases": [
           "Reading very long documents on your own hardware"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "xAI",
+    "website": "https://x.ai",
+    "about": "The company behind the Grok chatbot. SpaceX acquired it in February 2026, and it now operates as SpaceXAI.",
+    "products": [
+      {
+        "name": "Grok",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Chat with an AI assistant on the web, on your phone, or inside X"
+        ]
+      },
+      {
+        "name": "Grok Build",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Have an AI coding agent work in your terminal"
+        ]
+      },
+      {
+        "name": "Grok 4.7",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Coding and knowledge work at a lower price than many top models"
         ]
       }
     ]

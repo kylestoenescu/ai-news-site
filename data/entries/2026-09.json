@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-09-01-claude-fable-and-mythos-5-1",
+    "status": "published",
+    "title": "Anthropic releases Claude Fable 5.1, plus a less-restricted version for security and science experts",
+    "date": "2026-09-01",
+    "company": "Anthropic",
+    "category": "model-release",
+    "summary": "Anthropic released Claude Fable 5.1, which it calls its most advanced model for coding and knowledge work, through its API and the major cloud platforms. Alongside it came Claude Mythos 5.1: the same model, but with different safeguards, so it holds back less on cybersecurity and life-sciences work. Mythos is only available to a set of vetted US organizations in Anthropic's verification programs.",
+    "why_it_matters": "Instead of one set of rules for everyone, checked experts doing defensive security or scientific research get a version that holds back less in their field.",
+    "terms": [
+      "safeguards",
+      "API"
+    ],
+    "importance": 4,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "type": "primary"
+      }
+    ]
+  },
+  {
     "id": "2026-09-03-gpt-6-astra",
     "status": "published",
     "title": "OpenAI releases GPT-6 Astra, built to do whole tasks on a computer",
@@ -19,6 +42,74 @@
       {
         "name": "OpenAI",
         "url": "https://openai.com/index/gpt-6-astra/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-08-alphagenome-atlas",
+    "status": "published",
+    "title": "Google DeepMind maps what every possible single-letter DNA change might do",
+    "date": "2026-09-08",
+    "company": "Google",
+    "category": "research",
+    "summary": "Google DeepMind released AlphaGenome Atlas, a collection of predictions from its AlphaGenome AI model for all 9 billion possible single-letter changes in human DNA, showing how each one might affect the way cells work. It also covers the 98% of DNA that doesn't directly hold instructions for proteins, which is much harder to study. Academic researchers can search it free on a website, and Google says commercial use through Google Cloud is coming soon.",
+    "why_it_matters": "A ready-made map of what each DNA change might do could help researchers track down the genetic cause of rare diseases that doctors haven't been able to explain.",
+    "terms": [
+      "AI model"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Google DeepMind Blog",
+        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-21-grok-4-7",
+    "status": "published",
+    "title": "Grok 4.7 aims at coding and office work for a low price",
+    "date": "2026-09-21",
+    "company": "xAI",
+    "category": "model-release",
+    "summary": "SpaceXAI, the company formerly called xAI, released Grok 4.7, its most capable model for coding and knowledge work. It's built on a new, larger base model and was trained to keep working longer on hard tasks and to check its own work more carefully. It costs the same as Grok 4.6, starting at $2 per million input tokens and $6 per million output tokens, and it's available in Cursor, Grok Build, and the Grok API.",
+    "why_it_matters": "By xAI's own price comparison, that's much cheaper than many competing top models, which makes Grok 4.7 a budget option for heavy coding work.",
+    "terms": [
+      "token",
+      "API"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "xAI News",
+        "url": "https://x.ai/news/grok-4-7",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-23-claude-discovers-enzyme-system",
+    "status": "published",
+    "title": "Claude helps discover a new enzyme system with CRISPR-like DNA patterns",
+    "date": "2026-09-23",
+    "company": "Anthropic",
+    "category": "research",
+    "summary": "Scientists prompted Claude to search a huge database of DNA for new examples of one type of enzyme. About 950 Claude agents worked for 21 hours, narrowed more than 200,000 candidates down to 20, and spotted an unusual one in viruses that infect bacteria: an enzyme next to a pattern of repeating DNA similar to CRISPR, the bacterial system scientists turned into a gene-editing tool. Early tests in Anthropic's lab showed the system is switched on, but what it actually does is still unknown.",
+    "why_it_matters": "It's an example of AI agents doing a real piece of scientific discovery, from searching the data to finding something new, with scientists testing the result.",
+    "terms": [
+      "prompt",
+      "agent"
+    ],
+    "importance": 4,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
         "type": "primary"
       }
     ]
@@ -66,6 +157,30 @@
       {
         "name": "OpenAI",
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-30-gemini-4-argon",
+    "status": "published",
+    "title": "Google announces Gemini 4 Argon, starting with cybersecurity defenders",
+    "date": "2026-09-30",
+    "company": "Google",
+    "category": "model-release",
+    "summary": "Google announced Gemini 4 Argon, its new frontier model, built for complex software engineering, legal and finance work, and cybersecurity defense. It can write up to 1 million tokens in a single response, up from 64,000. Google is releasing it in stages, starting with trusted cybersecurity defenders in its Fairwind program, then paid API customers and Google AI Ultra subscribers, with wider access to follow.",
+    "why_it_matters": "This is Google's next big model generation, but most people won't be able to use it right away because of the staged rollout.",
+    "terms": [
+      "frontier model",
+      "token",
+      "API"
+    ],
+    "importance": 5,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "type": "primary"
       }
     ]
