@@ -135,3 +135,64 @@ function scrollToHash() {
   const target = document.getElementById(id);
   if (target) target.scrollIntoView({ block: "start" });
 }
+
+// ---------- Entry cards (timeline, archive, and later pages) ----------
+
+function importanceDots(importance) {
+  const dots = el("span", "dots");
+  dots.title = `Importance ${importance} of 5`;
+  dots.setAttribute("aria-label", `Importance ${importance} of 5`);
+  for (let i = 1; i <= 5; i++) dots.append(el("i", i <= importance ? "on" : ""));
+  return dots;
+}
+
+function sourceLinks(entry) {
+  const list = el("div", "sources");
+  for (const source of entry.sources) {
+    const link = el("a", null, `${source.name} ↗`);
+    // Only real web links. Blocks "javascript:" URLs if bad data ever slips in.
+    if (/^https?:\/\//.test(source.url)) {
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+    }
+    list.append(link);
+  }
+  return list;
+}
+
+// Summary and "why it matters" paragraphs, sharing one set of linked terms so
+// each term is linked only once per entry.
+function entryText(entry, glossary, classes) {
+  const used = new Set();
+  const summary = el("p", classes.summary);
+  summary.append(...linkTerms(entry.summary, entry.terms, glossary, used));
+  const parts = [summary];
+  if (entry.why_it_matters) {
+    const why = el("p", classes.why);
+    why.append(el("strong", null, "Why it matters: "), ...linkTerms(entry.why_it_matters, entry.terms, glossary, used));
+    parts.push(why);
+  }
+  return parts;
+}
+
+function renderEntry(entry, glossary) {
+  const article = el("article", "entry glass sheen");
+  article.id = entry.id;
+
+  const meta = el("p", "entry-meta");
+  meta.append(el("span", "chip", entry.company), el("span", null, CATEGORY_LABELS[entry.category] ?? entry.category));
+  if (entry.confirmed === false) meta.append(el("span", "badge-unconfirmed", "Unconfirmed"));
+  meta.append(importanceDots(entry.importance));
+  const time = el("time", "entry-date", formatDate(entry.date));
+  time.dateTime = entry.date;
+  meta.append(time);
+
+  article.append(
+    meta,
+    el("h3", "entry-title", entry.title),
+    ...entryText(entry, glossary, { summary: "entry-summary", why: "entry-why" }),
+    sourceLinks(entry),
+  );
+  return article;
+}
