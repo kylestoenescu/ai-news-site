@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Glossary · AI News (working title)</title>
+  <meta name="description" content="Plain-English definitions of the AI terms used in the news.">
+  <link rel="preload" href="fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="aura" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <header class="site-header">
+    <nav class="nav glass" aria-label="Main">
+      <a class="wordmark" href="./">AI News</a>
+      <a class="nav-link" href="./">Timeline</a>
+      <span class="nav-link soon" aria-disabled="true" title="Coming soon">This Week in AI</span>
+      <span class="nav-link soon" aria-disabled="true" title="Coming soon">Archive</span>
+      <a class="nav-link" href="glossary.html" aria-current="page">Glossary</a>
+      <span class="nav-link soon" aria-disabled="true" title="Coming soon">Companies</span>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-head">
+      <h1>Glossary</h1>
+      <p class="stats" id="stats"></p>
+    </div>
+    <p class="page-intro">Plain-English definitions of the terms that come up in AI news. Each one lists the entries that use it.</p>
+
+    <div class="search glass">
+      <label class="visually-hidden" for="glossary-search">Search the glossary</label>
+      <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>
+      <input id="glossary-search" type="search" placeholder="Search terms and definitions" autocomplete="off">
+    </div>
+    <p class="status" id="search-status" role="status" hidden></p>
+
+    <div class="glossary" id="glossary" aria-live="polite">
+      <p class="status">Loading…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Definitions are written to be simple, not complete. The linked entries show each term in context.</p>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/glossary.js"></script>
+</body>
+</html>

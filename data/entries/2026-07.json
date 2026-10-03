@@ -6,7 +6,7 @@
     "date": "2026-07-09",
     "company": "Meta",
     "category": "model-release",
-    "summary": "Meta introduced Muse Spark 1.1, a multimodal reasoning model built for agent work like using tools, operating a computer, and writing code. Its context window holds up to 1 million tokens. Developers can use it through the new Meta Model API, which launched in public preview, and it's also available in the Thinking mode of the Meta AI app and meta.ai.",
+    "summary": "Meta introduced Muse Spark 1.1, a multimodal reasoning model built for agent work like using tools, computer use, and writing code. Its context window holds up to 1 million tokens. Developers can use it through the new Meta Model API, which launched in public preview, and it's also available in the Thinking mode of the Meta AI app and meta.ai.",
     "why_it_matters": "Developers can now build Meta's newest model into their own apps and agents. The API is designed to work with code already written for OpenAI's API, which makes switching easier.",
     "terms": [
       "multimodal",
