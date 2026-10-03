@@ -69,6 +69,28 @@
     ]
   },
   {
+    "id": "2026-09-14-microsoft-mai-code-of-conduct",
+    "status": "published",
+    "title": "Microsoft asks the public to weigh in on rules for its AI models",
+    "date": "2026-09-14",
+    "company": "Microsoft",
+    "category": "policy",
+    "summary": "Microsoft AI published a Code of Conduct that sets out how its MAI models should behave and what they must never do, and opened a six-week public consultation on it. The hard limits include never helping with weapons of mass harm, protecting children, and never resisting being corrected or shut down by people. Microsoft is asking for feedback on unclear wording, on how to handle several AI agents working together, and on how to balance progress with safety.",
+    "why_it_matters": "Rules like these decide what an AI will and won't do for you, and this is a chance for people outside the company to shape them before they're final.",
+    "terms": [
+      "agent"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Microsoft AI News",
+        "url": "https://microsoft.ai/news/mai-code-of-conduct/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
     "id": "2026-09-21-grok-4-7",
     "status": "published",
     "title": "Grok 4.7 aims at coding and office work for a low price",
@@ -87,6 +109,28 @@
       {
         "name": "xAI News",
         "url": "https://x.ai/news/grok-4-7",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-22-claude-opus-5-5",
+    "status": "published",
+    "title": "Anthropic's Claude Opus 5.5 matches its top model on most work, for less",
+    "date": "2026-09-22",
+    "company": "Anthropic",
+    "category": "model-release",
+    "summary": "Anthropic released Claude Opus 5.5, the first model in its Claude 5.5 family. Anthropic says it performs at the level of its top model, Claude Fable 5.1, on most work, writes its answers 30% faster than Opus 5, and costs about 40% less than Opus 5 on typical work. It's available through Anthropic's API and on AWS, Google Cloud, and Microsoft Azure.",
+    "why_it_matters": "Near-top performance at a lower price makes it practical to use a powerful model for more everyday work.",
+    "terms": [
+      "API"
+    ],
+    "importance": 4,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/claude-opus-5-5",
         "type": "primary"
       }
     ]

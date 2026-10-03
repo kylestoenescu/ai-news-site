@@ -233,5 +233,52 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Microsoft",
+    "website": "https://microsoft.ai",
+    "about": "Microsoft's AI lab, Microsoft AI, is led by Mustafa Suleyman and builds the company's own MAI models, which go into products like GitHub Copilot and Microsoft 365.",
+    "products": [
+      {
+        "name": "MAI-Thinking-1",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Software engineering and math problems"
+        ]
+      },
+      {
+        "name": "MAI-Code-1.1-Flash",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Fast, low-cost coding help"
+        ]
+      },
+      {
+        "name": "MAI-Cyber-1-Flash",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Finding security holes in code, inside Microsoft's MDASH security system"
+        ]
+      },
+      {
+        "name": "MAI-Image-2.6",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Creating and editing images"
+        ]
+      },
+      {
+        "name": "MAI-Transcribe-2",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Turning speech into text"
+        ]
+      }
+    ]
   }
 ]
