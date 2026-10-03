@@ -113,6 +113,7 @@ Field notes:
 /css/styles.css
 /js/                    Shared rendering scripts
 /data/entries/2026-10.json   One file per month keeps files small
+/data/entries/index.json     List of month files that exist; pages read it first
 /data/glossary.json
 /data/companies.json
 /data/sources.json      The list of sources the pipeline checks
@@ -184,7 +185,7 @@ It works like an integration engine channel:
 | Duplicate check | Compare against entries from the last 14 days. If it's the same story, add the new link to the existing entry's `sources` instead of creating a new entry |
 | Transformer | Claude writes the summary, why_it_matters, category, terms, importance, and confirmed fields |
 | Validation | Check the output matches the entry format exactly. Reject anything invalid and log it |
-| Destination | Write to the correct monthly file, update `seen.json`, commit |
+| Destination | Write to the correct monthly file (adding new months to `data/entries/index.json`), update `seen.json`, commit |
 
 Additional pipeline rules:
 

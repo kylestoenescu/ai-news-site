@@ -1,0 +1,73 @@
+/* Minimal readable base. The real visual design comes in Pass 1, step 8. */
+
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #e2e2e2;
+  --link: #0b57d0;
+  --warn-bg: #fff4ce;
+  --warn-text: #5c4400;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e8e8e8;
+    --muted: #a8a8a8;
+    --border: #2e2e2e;
+    --link: #8ab4f8;
+    --warn-bg: #3d3200;
+    --warn-text: #ffe08a;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.site-header,
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-header {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header h1 { margin: 0; font-size: 1.75rem; }
+.working-title { color: var(--muted); font-size: 1rem; font-weight: normal; }
+.tagline { margin: 0.25rem 0 0; color: var(--muted); }
+
+a { color: var(--link); }
+
+.entry { padding: 1.25rem 0; border-bottom: 1px solid var(--border); }
+.entry-title { margin: 0 0 0.25rem; font-size: 1.2rem; line-height: 1.3; }
+.entry-meta { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.9rem; }
+.entry-summary,
+.entry-why { margin: 0 0 0.75rem; }
+.entry-sources { margin: 0; padding-left: 1.25rem; font-size: 0.9rem; }
+
+.badge-unconfirmed {
+  display: inline-block;
+  padding: 0 0.4rem;
+  border-radius: 0.25rem;
+  background: var(--warn-bg);
+  color: var(--warn-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status { color: var(--muted); }

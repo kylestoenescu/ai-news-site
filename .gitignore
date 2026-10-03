@@ -1,0 +1,9 @@
+# Windows / OneDrive / macOS clutter
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Local secrets. The Claude API key lives only in GitHub Actions secrets,
+# never in this repo. This is a backstop in case a local .env is ever made.
+.env
+.env.*
