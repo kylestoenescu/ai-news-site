@@ -14,10 +14,27 @@ async function fetchJson(url) {
   return response.json();
 }
 
+// Run fn over items, at most `limit` at a time, keeping results in order.
+// Requesting every month file at once makes simple local servers (like
+// Python's http.server) refuse some connections, and browsers would queue the
+// extra requests anyway.
+async function mapWithLimit(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i]);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
+}
+
 async function loadEntries() {
   const months = await fetchJson(MANIFEST_URL);
-  const monthFiles = await Promise.all(
-    months.map((month) => fetchJson(`data/entries/${month}.json`))
+  const monthFiles = await mapWithLimit(months, 4, (month) =>
+    fetchJson(`data/entries/${month}.json`)
   );
   return monthFiles
     .flat()

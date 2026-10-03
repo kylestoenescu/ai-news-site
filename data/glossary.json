@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "term": "AGI",
+    "definition": "Short for artificial general intelligence: AI that could do most mental work as well as a person can. There's no agreed definition, and experts disagree about whether or when it will arrive.",
+    "related": [
+      "AI model"
+    ]
+  },
+  {
+    "term": "AI model",
+    "definition": "A computer program that has learned patterns from a huge number of examples, so it can do a task like writing, answering questions, or recognizing images. ChatGPT, Claude, and Gemini are all built on AI models.",
+    "related": [
+      "large language model",
+      "parameters"
+    ]
+  },
+  {
+    "term": "agent",
+    "definition": "An AI system that doesn't just answer but takes actions to get a task done, often over many steps, like searching the web, using apps, or writing and running code.",
+    "example": "Asking an agent to \"book the cheapest flight to Denver on Friday\" instead of just asking it for flight options.",
+    "related": [
+      "computer use"
+    ]
+  },
+  {
+    "term": "alignment",
+    "definition": "Making sure an AI system does what people actually intend and avoids harmful behavior, even in situations its makers didn't plan for.",
+    "related": [
+      "interpretability"
+    ]
+  },
+  {
+    "term": "API",
+    "definition": "Short for application programming interface: a way for one program to talk to another. AI companies offer APIs so developers can build a model into their own apps, usually paying per use.",
+    "related": [
+      "token"
+    ]
+  },
+  {
+    "term": "benchmark",
+    "definition": "A standard test used to compare AI models, like a shared exam. Companies often report benchmark scores when they launch a model, but a high score doesn't always mean better results in everyday use.",
+    "related": [
+      "AI model"
+    ]
+  },
+  {
+    "term": "chatbot",
+    "definition": "An app you talk with by typing or speaking, which answers using an AI model.",
+    "example": "ChatGPT, Claude, and Gemini are chatbots.",
+    "related": [
+      "large language model"
+    ]
+  },
+  {
+    "term": "computer use",
+    "definition": "An AI model's ability to operate a computer the way a person does: looking at the screen, moving the cursor, clicking, and typing.",
+    "related": [
+      "agent"
+    ]
+  },
+  {
+    "term": "context window",
+    "definition": "How much an AI model can take in and keep in mind at once, measured in tokens. Anything past that limit, the model can't see.",
+    "example": "A large context window lets a model read a whole book or a big pile of documents in one go.",
+    "related": [
+      "token"
+    ]
+  },
+  {
+    "term": "hallucination",
+    "definition": "When an AI model states something false or made-up as if it were true.",
+    "example": "Confidently citing a book or court case that doesn't exist.",
+    "related": [
+      "large language model"
+    ]
+  },
+  {
+    "term": "interpretability",
+    "definition": "The research field that tries to understand what's happening inside an AI model and why it gives the answers it does.",
+    "related": [
+      "alignment"
+    ]
+  },
+  {
+    "term": "large language model",
+    "definition": "An AI model trained on enormous amounts of text so it can understand and write language. It works by predicting what should come next, one small piece at a time.",
+    "example": "The models behind ChatGPT, Claude, and Gemini are large language models, often shortened to LLMs.",
+    "related": [
+      "AI model",
+      "token",
+      "chatbot"
+    ]
+  },
+  {
+    "term": "mixture of experts",
+    "definition": "A way of building an AI model out of many smaller specialist parts, called experts. For each bit of input, only a few experts do the work, which makes a very large model faster and cheaper to run.",
+    "related": [
+      "parameters"
+    ]
+  },
+  {
+    "term": "multimodal",
+    "definition": "Able to work with more than one kind of input or output, such as text, images, audio, and video.",
+    "example": "You can show a multimodal model a photo of your fridge and ask what to cook.",
+    "related": [
+      "AI model"
+    ]
+  },
+  {
+    "term": "open standard",
+    "definition": "A shared set of rules that anyone can use for free, so products from different companies can work together.",
+    "example": "Email is an open standard: anyone can build an email app, and they can all send messages to each other.",
+    "related": []
+  },
+  {
+    "term": "open weights",
+    "definition": "An AI model whose trained internals, called weights, are published so anyone can download it and run it on their own hardware. That's different from models you can only use through the company's own app or API.",
+    "related": [
+      "parameters",
+      "API"
+    ]
+  },
+  {
+    "term": "parameters",
+    "definition": "The internal numbers an AI model adjusts while it learns. A model's size is often described by how many it has, from a few billion to trillions.",
+    "example": "\"8B\" in a model's name means it has about 8 billion parameters.",
+    "related": [
+      "AI model",
+      "open weights"
+    ]
+  },
+  {
+    "term": "public benefit corporation",
+    "definition": "A type of for-profit company that is legally required to weigh a public mission alongside making money for its shareholders.",
+    "related": []
+  },
+  {
+    "term": "reasoning model",
+    "definition": "An AI model that works through a problem step by step before giving its answer, instead of replying right away. It's slower, but better at hard questions in math, science, and coding.",
+    "related": [
+      "large language model",
+      "benchmark"
+    ]
+  },
+  {
+    "term": "token",
+    "definition": "The small pieces of text an AI model reads and writes, often a word or part of a word. AI companies measure how much a model can handle, and what they charge, in tokens.",
+    "example": "\"Unbelievable\" might be split into three tokens: \"un\", \"believ\", and \"able\".",
+    "related": [
+      "context window",
+      "API"
+    ]
+  }
+]

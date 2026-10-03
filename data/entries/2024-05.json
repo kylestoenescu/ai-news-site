@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2024-05-08-alphafold-3",
+    "status": "published",
+    "title": "Google DeepMind's AlphaFold 3 predicts how life's molecules fit together",
+    "date": "2024-05-08",
+    "company": "Google",
+    "category": "research",
+    "summary": "Google DeepMind and Isomorphic Labs released AlphaFold 3, an AI model that predicts the 3D shapes of proteins, DNA, RNA, and small drug-like molecules, and how they attach to each other. It builds on AlphaFold 2, which only predicted the shapes of proteins. Scientists can use it free for non-commercial research through a website called AlphaFold Server.",
+    "why_it_matters": "Figuring out how molecules fit together is a slow, expensive step in making new medicines. A tool that predicts it could help speed up drug discovery and other biology research.",
+    "terms": [
+      "AI model"
+    ],
+    "importance": 4,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/products/google-deepmind-isomorphic-alphafold-3-ai-model/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2024-05-21-anthropic-maps-concepts-inside-claude",
+    "status": "published",
+    "title": "Anthropic researchers find millions of concepts inside an AI model",
+    "date": "2024-05-21",
+    "company": "Anthropic",
+    "category": "research",
+    "summary": "Anthropic researchers looked inside Claude 3 Sonnet, one of their large language models, and found millions of internal patterns that each match a concept, such as a city, a famous scientist, or a bug in computer code. When they artificially turned up one pattern tied to the Golden Gate Bridge, the model started bringing up the bridge in almost every answer. Earlier work in this field, called interpretability, had only managed this on tiny test models.",
+    "why_it_matters": "AI models are often called black boxes because even their makers can't fully see why they give an answer. Being able to find and adjust these concepts could help catch and prevent harmful behavior.",
+    "terms": [
+      "large language model",
+      "interpretability",
+      "AI model"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic Research",
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
+        "type": "primary"
+      }
+    ]
+  }
+]

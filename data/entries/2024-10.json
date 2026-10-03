@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2024-10-09-nobel-prize-alphafold",
+    "status": "published",
+    "title": "AlphaFold's creators at Google DeepMind share the Nobel Prize in Chemistry",
+    "date": "2024-10-09",
+    "company": "Google",
+    "category": "other",
+    "summary": "Demis Hassabis and John Jumper of Google DeepMind won half of the 2024 Nobel Prize in Chemistry for AlphaFold2, an AI model that predicts the shape of proteins, a problem scientists had been stuck on for about 50 years. The other half went to David Baker of the University of Washington for designing entirely new proteins. The prize announcement noted that AlphaFold2 has been used by more than two million people in 190 countries.",
+    "why_it_matters": "AI was recognized at the highest level of science, for solving a problem that matters for medicine and biology.",
+    "terms": [
+      "AI model"
+    ],
+    "importance": 4,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+        "type": "primary"
+      }
+    ]
+  }
+]

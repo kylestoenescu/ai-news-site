@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2025-04-05-llama-4",
+    "status": "published",
+    "title": "Meta releases Llama 4 models that anyone can download",
+    "date": "2025-04-05",
+    "company": "Meta",
+    "category": "model-release",
+    "summary": "Meta released two Llama 4 models, Scout and Maverick, as open weights that developers can download and run on their own hardware. Both are multimodal, handling text and images, and use a mixture of experts design. Scout's context window is 10 million tokens, enough to take in a huge amount of text at once. A third, much larger model called Behemoth was still being trained.",
+    "why_it_matters": "Open-weight models let companies and researchers use, study, and customize a powerful model without paying per use or sending their data to another company's servers.",
+    "terms": [
+      "open weights",
+      "multimodal",
+      "mixture of experts",
+      "context window",
+      "token"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Meta AI Blog",
+        "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+        "type": "primary"
+      }
+    ]
+  }
+]

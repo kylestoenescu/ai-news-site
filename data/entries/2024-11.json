@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2024-11-25-model-context-protocol",
+    "status": "published",
+    "title": "Anthropic releases an open standard for connecting AI to apps and data",
+    "date": "2024-11-25",
+    "company": "Anthropic",
+    "category": "product",
+    "summary": "Anthropic released the Model Context Protocol (MCP), an open standard that gives AI assistants one common way to connect to other tools and data, like Google Drive, Slack, GitHub, or a database. Before this, each connection had to be custom-built. Anthropic made the rules and a set of ready-made connectors free and open source, and companies including Block and Replit said they were already using or building with it.",
+    "why_it_matters": "It works like a universal plug: build one MCP connector for a tool, and any AI app that supports MCP can use it.",
+    "terms": [
+      "open standard"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "url": "https://www.anthropic.com/news/model-context-protocol",
+        "type": "primary"
+      }
+    ]
+  }
+]

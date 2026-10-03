@@ -13,8 +13,12 @@ Serve the folder with a local web server. Opening `index.html` by
 double-clicking won't work: browsers block a page opened from disk (`file://`)
 from reading the JSON files.
 
+Run this **from the repo folder**. The server shares whatever folder it's
+started in, and `--bind 127.0.0.1` keeps it reachable only from this computer
+(without it, other devices on your network can connect too).
+
 ```
-python -m http.server 8000
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
 Then visit <http://localhost:8000>.

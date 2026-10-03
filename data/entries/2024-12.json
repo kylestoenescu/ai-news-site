@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2024-12-11-gemini-2-0",
+    "status": "published",
+    "title": "Google launches Gemini 2.0, aimed at AI that takes actions",
+    "date": "2024-12-11",
+    "company": "Google",
+    "category": "model-release",
+    "summary": "Google released an experimental version of Gemini 2.0 Flash, the first model in its Gemini 2.0 family. It's multimodal, meaning it can create images and spoken audio as well as text, and it can use tools like Google Search and run code on its own. Google also showed early agent projects, including Project Astra, a universal assistant, and Project Mariner, which carries out tasks in a web browser.",
+    "why_it_matters": "Google described this as the start of AI agents that do tasks for you instead of only answering questions. Gemini 2.0 Flash has since been shut down and replaced by newer Gemini models.",
+    "terms": [
+      "multimodal",
+      "agent"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/",
+        "type": "primary"
+      },
+      {
+        "name": "Google AI for Developers: Gemini models",
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "type": "primary"
+      }
+    ]
+  }
+]

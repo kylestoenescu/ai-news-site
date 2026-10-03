@@ -1,0 +1,73 @@
+[
+  {
+    "id": "2026-09-03-gpt-6-astra",
+    "status": "published",
+    "title": "OpenAI releases GPT-6 Astra, built to do whole tasks on a computer",
+    "date": "2026-09-03",
+    "company": "OpenAI",
+    "category": "model-release",
+    "summary": "OpenAI released GPT-6 Astra, which it calls its most intelligent model and its best yet at alignment, meaning doing what people actually intend. OpenAI says its biggest strength is computer use: operating a browser and apps to handle tasks like filling out online forms, updating customer records, and organizing a calendar. It rolled out first to a limited set of organizations, with paid ChatGPT plans, OpenAI's API, Microsoft Azure, and AWS Bedrock to follow over the next few days.",
+    "why_it_matters": "OpenAI is pitching Astra as something you can hand whole tasks to, not just questions. If it works as described, it could take over tedious computer chores that people do every day.",
+    "terms": [
+      "alignment",
+      "computer use",
+      "API"
+    ],
+    "importance": 5,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-astra/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-28-claude-sonnet-5-5",
+    "status": "published",
+    "title": "Anthropic releases Claude Sonnet 5.5, faster and cheaper per task than Sonnet 5",
+    "date": "2026-09-28",
+    "company": "Anthropic",
+    "category": "model-release",
+    "summary": "Anthropic released Claude Sonnet 5.5, a model aimed at everyday work like fixing bugs and writing polished documents. Anthropic says it writes its answers more than 30% faster than Sonnet 5 and costs up to 30% less per task, even though the price per token hasn't changed. It's available in the Claude web app, Claude Code, Anthropic's API, and the major cloud platforms.",
+    "why_it_matters": "The same work gets done faster and for less money. For businesses that run Claude on a lot of tasks, up to 30% less per task adds up.",
+    "terms": [
+      "token",
+      "API"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/claude-sonnet-5-5",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-29-gpt-6-1-sol",
+    "status": "published",
+    "title": "OpenAI's GPT-6.1 Sol promises near-Astra skill at a fifth of the price",
+    "date": "2026-09-29",
+    "company": "OpenAI",
+    "category": "model-release",
+    "summary": "OpenAI released GPT-6.1 Sol, an upgrade to its GPT-6 Sol model. OpenAI says it comes close to its top model, GPT-6 Astra, on coding, computer use, and professional work, while costing developers one-fifth as much. It's available on paid ChatGPT plans in ChatGPT Work and Codex and to developers through the API, but not yet in regular ChatGPT chat.",
+    "why_it_matters": "Price matters as much as power. A model that's nearly as capable at a fraction of the cost makes running AI agents affordable for more businesses.",
+    "terms": [
+      "computer use",
+      "API",
+      "agent"
+    ],
+    "importance": 3,
+    "confirmed": true,
+    "sources": [
+      {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "type": "primary"
+      }
+    ]
+  }
+]

@@ -1,1 +1,181 @@
-[]
+[
+  {
+    "name": "Anthropic",
+    "website": "https://www.anthropic.com",
+    "about": "An AI company that makes the Claude family of AI models and the Claude app. It describes itself as focused on AI safety.",
+    "products": [
+      {
+        "name": "Claude",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Chat with an AI assistant on the web, desktop, or phone",
+          "Write, summarize, and analyze documents"
+        ]
+      },
+      {
+        "name": "Claude Code",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Have AI read, write, and test code in a programmer's terminal"
+        ]
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "The hardest reasoning problems",
+          "Long, multi-step agent work"
+        ]
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Long-running coding projects",
+          "Complex knowledge work"
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Everyday work where speed and cost matter",
+          "Fixing bugs and writing polished documents"
+        ]
+      },
+      {
+        "name": "Claude Haiku 4.5",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Fast, low-cost tasks at high volume"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "website": "https://openai.com",
+    "about": "The company behind ChatGPT. It was founded as a nonprofit, and that nonprofit still controls the company.",
+    "products": [
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Chat with an AI assistant",
+          "Get help with writing, research, and everyday questions"
+        ]
+      },
+      {
+        "name": "Codex",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Have AI write and fix code"
+        ]
+      },
+      {
+        "name": "GPT-6 Astra",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Operating a computer to complete whole tasks",
+          "The most demanding coding and professional work"
+        ]
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Coding and business tasks at a lower price than Astra"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "website": "https://ai.google",
+    "about": "Google builds the Gemini family of AI models through its research lab, Google DeepMind, and puts them into products like Search and the Gemini app.",
+    "products": [
+      {
+        "name": "Gemini 3.8 Flash",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Software engineering and AI agents",
+          "Complex business workflows"
+        ]
+      },
+      {
+        "name": "Gemini 3.1 Pro",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Hard problem-solving and agent tasks (in preview)"
+        ]
+      },
+      {
+        "name": "AlphaFold Server",
+        "type": "product",
+        "status": "current",
+        "use_cases": [
+          "Predict the shapes of proteins and other molecules for non-commercial research"
+        ]
+      },
+      {
+        "name": "Gemini 2.0 Flash",
+        "type": "model",
+        "status": "retired",
+        "use_cases": [
+          "General-purpose tasks with text, image, and audio"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meta",
+    "website": "https://ai.meta.com",
+    "about": "The company behind Facebook and Instagram. It released its Llama models as open weights, and its newer models are called Muse.",
+    "products": [
+      {
+        "name": "Muse Spark 1.3",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Long coding projects and agent work, through Meta's API"
+        ]
+      },
+      {
+        "name": "Muse Glimmer",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "AI agents that run on your own device; downloadable from Hugging Face"
+        ]
+      },
+      {
+        "name": "Llama 4 Maverick",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Text and image tasks on your own hardware"
+        ]
+      },
+      {
+        "name": "Llama 4 Scout",
+        "type": "model",
+        "status": "current",
+        "use_cases": [
+          "Reading very long documents on your own hardware"
+        ]
+      }
+    ]
+  }
+]
