@@ -36,6 +36,10 @@ Write every summary for a smart adult who is new to AI. Think "AI for Dummies," 
 
 The Claude API key lives **only** in GitHub Actions secrets. Never commit it. Never put it in any file the website loads, because anything in client-side JavaScript is visible to every visitor. The website itself never calls the API; only the scheduled workflow does.
 
+## Visual style (decided 2026-10-02)
+
+Tonal "liquid glass," inspired by macOS Tahoe: blacks and cool-leaning greys, with no accent color. Frosted glass panels float over slow-moving graphite light (pale mist in light mode). The week's top story sits in a larger layered glass slab; other entries are glass cards. Fonts are Geist (interface), Instrument Sans (headlines), and Geist Mono (dates and data), self-hosted in `/fonts`. Every color and font comes from the tokens at the top of `css/styles.css`, so new pages reuse those tokens instead of adding their own.
+
 ## Data model
 
 Everything on the site is a view of the same entries. Get this format right first.
@@ -111,6 +115,7 @@ Field notes:
 /glossary.html          Glossary
 /companies.html         Companies, models, and products
 /css/styles.css
+/fonts/                Self-hosted fonts and their licenses
 /js/                    Shared rendering scripts
 /data/entries/2026-10.json   One file per month keeps files small
 /data/entries/index.json     List of month files that exist; pages read it first
@@ -243,4 +248,3 @@ Before sharing the site with anyone:
 
 - Site name
 - Domain (buy one, or use the GitHub Pages address for now)
-- Visual style (decided during the Pass 1 design step)
