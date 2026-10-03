@@ -110,7 +110,7 @@ Field notes:
 
 ```
 /index.html             Timeline (home)
-/week.html              "This week in 5 minutes" digest
+/week.html              "This Week in AI" digest
 /archive.html           All past entries, filterable
 /glossary.html          Glossary
 /companies.html         Companies, models, and products
@@ -129,8 +129,8 @@ Field notes:
 
 ## Site pages
 
-1. **Timeline (home):** newest entries first. Each shows title, date, company, category, summary, and source links. Glossary terms in the text link to their definitions.
-2. **This week:** the most important entries from the last 7 days, sorted by importance. Should take about 5 minutes to read. This page exists to *reduce* time spent on news.
+1. **Timeline (home):** newest entries first. Each shows title, date, company, category, summary, and source links. Glossary terms in the text link to their definitions. Entries stay separate here: the timeline is the record, and combining related stories happens on This Week in AI.
+2. **This Week in AI** (short label: TWIAI): the most important entries from the last 7 days, sorted by importance, plus "the week in brief": 2 to 4 short themes that group related entries (for example, several companies cutting model prices in the same week). Every claim in a theme must be backed by an entry it links to; no speculation about trends. Should take about 5 minutes to read. This page exists to *reduce* time spent on news. The theme format gets designed with Kyle in step 7.
 3. **Archive:** every entry, filterable by month, company, category, and importance.
 4. **Glossary:** alphabetical, searchable. Each term shows the entries that use it.
 5. **Companies and models:** one section per company with its current products, use cases, and recent entries. Retired products are shown separately.
@@ -212,7 +212,7 @@ Goal: get the site looking and working right without automation.
 4. Build the glossary, including term links inside entries.
 5. Build the archive with filters.
 6. Build the companies and models page.
-7. Build the weekly digest page.
+7. Build the This Week in AI page, including the week-in-brief themes.
 8. Design pass: offer Kyle options for the visual style and apply his choice across all pages.
 
 ### Pass 2: automation
@@ -246,5 +246,5 @@ Before sharing the site with anyone:
 
 ## Open decisions
 
-- Site name
+- Site name ("This Week in AI" is a candidate; check whether the name is already in use before a public launch)
 - Domain (buy one, or use the GitHub Pages address for now)
