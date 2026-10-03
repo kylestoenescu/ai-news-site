@@ -141,6 +141,7 @@ Requirements for every page: readable on a phone, works in light and dark mode, 
 
 - Plain English, roughly an 8th grade reading level. Short sentences.
 - Any technical term either gets explained in the sentence or goes in `terms` so it links to the glossary.
+- Only list a term in `terms` when the entry uses it in its AI sense. "Training starts with a few days in person" is about training people, so it must not link to the glossary's *training*.
 - Explain **what it does and why someone would care**, not marketing claims or benchmark numbers.
 - No hype words ("revolutionary," "game-changing," "insane").
 - If sources disagree or a claim is unconfirmed, say so plainly and set `confirmed: false`.

@@ -6,10 +6,12 @@
     "date": "2026-06-02",
     "company": "Microsoft",
     "category": "model-release",
-    "summary": "Microsoft AI, the company's AI lab led by Mustafa Suleyman, launched seven new models of its own, including MAI-Thinking-1, a reasoning model for software engineering and math, and MAI-Code-1-Flash, a small coding model built into GitHub Copilot and VS Code. The rest make and edit images, transcribe speech in 43 languages, and generate spoken audio. Developers can use them through Microsoft Foundry and other platforms like OpenRouter, and Microsoft is building them into Microsoft 365.",
+    "summary": "Microsoft AI, the company's AI lab led by Mustafa Suleyman, launched seven new models of its own, including MAI-Thinking-1, a reasoning model for software engineering and math, and MAI-Code-1-Flash, a small coding model built into GitHub Copilot and VS Code. The rest make and edit images, handle speech-to-text in 43 languages, and do text-to-speech. Developers can use them through Microsoft Foundry and other platforms like OpenRouter, and Microsoft is building them into Microsoft 365.",
     "why_it_matters": "More of the AI inside Microsoft tools like GitHub Copilot and Microsoft 365 is now built by Microsoft itself.",
     "terms": [
-      "reasoning model"
+      "reasoning model",
+      "speech-to-text",
+      "text-to-speech"
     ],
     "importance": 3,
     "confirmed": true,

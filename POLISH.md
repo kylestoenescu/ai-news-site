@@ -10,7 +10,7 @@ Things to refine in Pass 1, step 8 (the design pass). Add items as they come up 
 ## Glossary
 
 - Term definitions show as the browser's plain hover tooltip, which doesn't appear on phones (tapping goes straight to the glossary). A small glass popover that works on tap would be nicer.
-- Five terms aren't used by any entry yet (benchmark, hallucination, large language model, open weights, parameters). Fine for now; revisit once Pass 2 adds real entries.
+- Most of the 51 terms are starter vocabulary that no entry uses yet. That's expected. As the list grows, consider letting readers browse by group (how models are made, using AI, kinds of AI, safety and trust) as well as A to Z.
 
 ## All pages
 
